@@ -110,3 +110,40 @@ const objectEntries = (obj) => {
   })
 
   console.log(youngerThanTwentyOne)
+
+
+
+
+  // new find and findindex from scratch 
+  // const nameOfFunction = () => {}
+// function nameOfFunction() {}
+
+  const arrayOfColors = ["red", "green", "blue", "orange", "yellow", "purple"]
+  
+  function findFromScratch(array, element) {
+    for (let i = 0; i < array.length; i++) {
+     if (array[i] === element){
+      return array[i]
+     } 
+    }
+  }
+
+  console.log(findFromScratch(arrayOfColors,"blue"))
+
+  function findIndexFromScratch(array, element) {
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] === element){
+        return i
+      }
+    }
+  }
+
+  console.log(findIndexFromScratch(arrayOfColors,"blue"))
+
+
+
+
+
+
+
+
